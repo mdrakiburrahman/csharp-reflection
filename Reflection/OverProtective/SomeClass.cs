@@ -2,6 +2,7 @@
 {
     public class SomeClass : SomeBase
     {
+        private string _connectionString;
         private string Str { get; set; }
         internal int Int { get; set; }
 

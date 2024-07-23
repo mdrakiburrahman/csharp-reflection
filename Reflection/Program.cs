@@ -24,3 +24,11 @@ someObj.SetPropertyValue("Int", -1);
 // so, the base class will be analyzed as well
 //
 someObj.SetPropertyValue("IsLimited", true);
+
+// set value
+//
+someObj.SetFieldValue("_connectionString", "some connection string");
+
+// get value
+//
+string privateValue = (string)someObj.GetFieldValue("_connectionString");
